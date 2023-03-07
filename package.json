@@ -16,3 +16,18 @@
     "redis": "^2.8.0"
   }
 }
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "My app",
+  "scripts": {
+    "start": "node index.js",
+    "build": "babel src -d dist"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.5",
+    "redis": "^3.0.2"
+  }
+}
+
